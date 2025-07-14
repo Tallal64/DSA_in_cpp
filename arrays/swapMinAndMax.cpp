@@ -54,5 +54,3 @@ int main()
 
     return 0;
 }
-
-// TODO: replace microsoft with github in vscode sync
