@@ -3,6 +3,7 @@ using namespace std;
 
 void reverseArray(int arr[], int size)
 {
+    // two pointers approach
     int start = 0, end = size - 1;
 
     while (start < end)
