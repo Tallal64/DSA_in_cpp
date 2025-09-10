@@ -31,16 +31,17 @@ int maxSubArrayKadaneAlgorithm(vector<int> vec, int size) {
     currSum += val;
     MaxSum = max(currSum, MaxSum);
 
-    if (currSum < 0) {
-      currSum = 0;
-    }
+    // if (currSum < 0) {
+    //   currSum = 0;
+    // }
+    currSum = currSum < 0 ? 0 : currSum;
   }
   return MaxSum;
 }
 
 int main() {
   vector<int> vec = {-5, -2, -11, -8};
-  vector<int> vec = {1, 2, 3, 4, 5};
+  // vector<int> vec = {1, 2, 3, 4, 5};
 
   int size = vec.size();
 

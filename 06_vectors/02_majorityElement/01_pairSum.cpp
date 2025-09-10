@@ -39,7 +39,7 @@ vector<int> pairSum2(vector<int> arr, int size, int target) {
 }
 
 int main() {
-  // must be "sorted" for this specific type of question
+  // must be "sorted" (acsending order) for this specific type of question
   vector<int> arr = {2, 3, 6, 12};
   int size = arr.size();
   int target = 9;

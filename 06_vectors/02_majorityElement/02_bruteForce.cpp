@@ -21,7 +21,7 @@ int majorityElement(vector<int> nums, int n) {
   return MJE;
 }
 
-// majority element by brute force on a sorted array (optimize approach) and
+// majority element by brute force on an unsorted vector (optimize approach) and
 // it's time complexity is O(n)
 int majorityElementOptimize(vector<int> nums, int n) {
   int frequency = 1;
